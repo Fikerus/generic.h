@@ -51,7 +51,7 @@ and then use it like this
 
 #define LIB "function.h"
 #define TYPE int
-#define NAME _int_function
+#define NAME
 #include "generic.h"
 ```
 
@@ -70,7 +70,7 @@ float get_minimum_test_float_name (float *nums, int len){
     return min;
 }
 
-int get_minimum_int_function (int *nums, int len){
+int get_minimum (int *nums, int len){
     int min = nums[0];
 
     for (int i = 1; i < len; i++) {
